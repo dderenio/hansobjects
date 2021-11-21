@@ -75,10 +75,14 @@
         .intro-text {
           min-width: 100%;
         }
-        .section {
-          min-height: 90vh;
+        .section-01 {
+          max-height: 90vh;
         }
         nav {
           margin-top: 50px;
+          justify-content: flex-start;
+        }
+        .intro-email {
+          padding-right: 30px;
         }
       }
