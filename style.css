@@ -80,7 +80,9 @@
         .intro-text {
           min-width: 100%;
         }
-       
+        .section-01 {
+          max-height: 90vh;
+        }
         nav {
           margin-top: 50px;
           justify-content: flex-start;
