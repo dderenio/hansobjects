@@ -66,7 +66,7 @@
       }
       @media (max-width:680px) {
         body{
-          margin-top: 40px;
+          margin-top: 2.5vh;
           padding: 16px;
         }
         
@@ -78,6 +78,7 @@
         }
         .section-01 {
           max-height: 90vh;
+          border: 1px solid red;
         }
         nav {
           margin-top: 50px;
