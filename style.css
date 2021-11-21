@@ -57,6 +57,10 @@
       justify-content: space-between;
       width: 100%;
     }
+
+.logo{
+  width: 100%;
+}
     /* Section 01 */
     /* Media Query @768px*/
     
@@ -87,4 +91,5 @@
         .intro-email {
           padding-right: 30px;
         }
+
       }
