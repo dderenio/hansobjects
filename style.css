@@ -1,0 +1,79 @@
+    body {
+      font-family: 'Work Sans';
+      font-weight: 300;
+      padding: 45px;
+      margin: 0;
+    }
+    /* General Styles */
+    
+    p {
+      font-size: 18px;
+    }
+    
+    h4 {
+      font-size: 30px;
+      margin: 0px;
+    }
+    
+    a {
+      color: black;
+      text-decoration: none;
+      font-weight: 
+    }
+    
+    .main-wrapper {
+      max-width: 1440px;
+      margin: auto;
+    }
+    /* End of General Styles*/
+    /* Section 01 */
+    
+    header {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .intro-text {
+      max-width: 530px;
+    }
+    
+    nav {
+      max-width: 320px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    
+    .intro-email {
+      padding-right: 30px;
+    }
+    
+    .section {
+      max-height: 100vh;
+      min-height: 88vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%;
+    }
+    /* Section 01 */
+    /* Media Query @768px*/
+    
+    @media (max-width:834px) {
+      .intro-text {
+        max-width: 350px;
+      }
+      @media (max-width:680px) {
+        header {
+          flex-flow: column;
+        }
+        .intro-text {
+          min-width: 100%;
+        }
+        .section {
+          min-height: 90vh;
+        }
+        nav {
+          margin-top: 50px;
+        }
+      }
