@@ -64,6 +64,10 @@
         max-width: 350px;
       }
       @media (max-width:680px) {
+        body{
+          padding: 16px;
+        }
+        
         header {
           flex-flow: column;
         }
